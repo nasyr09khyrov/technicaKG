@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arvo', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  body,
+  html {
+    margin: 0;
+    background-color: white;
+  }
+  
+  nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  
+    padding: 20px 50px;
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .ul1 {
+    max-width: 100px;
+    left: 50px;
+    width: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+header {
+    background-image: url(./matebook-x-pro-2022.png);
+    height: 504px;
+    width: 1550px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    padding-top: 180px;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin-left: 250px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
